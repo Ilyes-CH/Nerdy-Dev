@@ -144,7 +144,8 @@ h2,
 h3,
 h4,
 h5,
-h6,input {
+h6,
+input {
 	font-family: 'Ubuntu', sans-serif;
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
@@ -155,8 +156,8 @@ h1 {
 	font-size: 3.052em;
 }
 
-h2{
-	font-size:x-large;
+h2 {
+	font-size: x-large;
 }
 
 h3 {
@@ -206,21 +207,22 @@ input {
 	border-right: none;
 	border-left: none;
 	border-bottom: 3px solid var(--shiki-dark-bg);
-	width:60%;
+	width: 60%;
 	height: 30px;
 	margin-bottom: 20px;
 	margin-left: 17%;
 	text-align: center;
 	color: #000;
 }
-.dark input{
+
+.dark input {
 	font-size: 26px;
 	background-color: var(--shiki-dark-bg-secondary);
 	border-top: none;
 	border-right: none;
 	border-left: none;
 	border-bottom: 3px solid rgb(139, 137, 137);
-	width:60%;
+	width: 60%;
 	height: 30px;
 	margin-bottom: 20px;
 	margin-left: 17%;
@@ -228,6 +230,7 @@ input {
 	color: white;
 
 }
+
 table {
 	width: 100%;
 }
@@ -281,10 +284,13 @@ hr {
 
 .read-more-link {
 	flex: 1 1 48%;
+	text-align: center;
+	word-spacing: 3px;
+	font-size: 30px;
 	text-decoration: none;
 	border: solid 1px var(--accent);
 	border-radius: 10px;
-	padding: 60px 55px;
+	padding: 30px 25px;
 	cursor: pointer;
 	background: url("/blog-placeholder-1.jpg") center / cover no-repeat;
 	transition: 1s;
@@ -321,13 +327,14 @@ hr {
 	justify-content: space-between;
 }
 
-.info-text-home{
+.info-text-home {
 	font-size: medium;
 	margin-top: 310px;
 	text-align: center;
 	margin-bottom: 25px;
 }
-.info-text-home-date{
+
+.info-text-home-date {
 	margin-top: -30px;
 	text-align: center;
 	font-size: small;
@@ -466,10 +473,11 @@ footer {
 }
 
 
-.dark h2{
-	font-size:x-large;
+.dark h2 {
+	font-size: x-large;
 
 }
+
 .dark h1,
 .dark h2,
 .dark h3,
@@ -566,12 +574,13 @@ footer {
 	.read-more-link {
 		padding: 40px 45px !important;
 	}
-	.read-more-link-home{
+
+	.read-more-link-home {
 		margin-bottom: 40px;
 
 	}
 
-	.info-text-home{
+	.info-text-home {
 		margin-bottom: 27px;
 	}
 }
@@ -604,7 +613,11 @@ footer {
 	}
 
 	.read-more-link {
-		padding: 25px 60% !important;
+		text-align: center;
+		font-size: 15px;
+		word-spacing: 0px;
+		word-wrap:normal;
+		padding: 20px 20% !important;
 		margin-right: 40px;
 	}
 
@@ -616,11 +629,12 @@ footer {
 		height: 150px;
 		margin-bottom: 30px;
 	}
-	.info-text-home{
+
+	.info-text-home {
 		margin-top: 150px;
 		margin-bottom: 25px;
 		font-size: medium;
 	}
-	.info-text-home-date{
-	}
+
+	.info-text-home-date {}
 }
