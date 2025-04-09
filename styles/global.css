@@ -414,6 +414,10 @@ footer {
 
 }
 
+.dark .title{
+	color: var(--shiki-dark);
+}
+
 .dark .read-more-link-home:hover {
 	background-color: var(--shiki-dark-bg);
 }
