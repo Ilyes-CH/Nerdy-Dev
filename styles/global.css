@@ -250,15 +250,13 @@ code {
 
 pre {
 	font-family: 'Fira Code', monospace;
-
 	padding: 1.5em;
 	border-radius: 8px;
 }
 
-pre>code {
+pre > code {
 	all: unset;
 }
-
 blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
@@ -476,12 +474,31 @@ footer {
 
 }
 
+.dark code {
+	font-family: 'Fira Code', monospace;
+	padding: 2px 5px;
+	background-color: rgb(var(--gray-light));
+	border-radius: 2px;
+}
+
+.dark pre {
+	font-family: 'Fira Code', monospace;
+	padding: 1.5em;
+	border-radius: 8px;
+}
+
+.dark pre > code {
+	all: unset;
+}
 
 .dark h2 {
 	font-size: x-large;
 
 }
-
+.dark .astro-code {
+	background-color: var(--shiki-dark-bg) !important;
+	color: var(--shiki-dark) !important;
+  }
 .dark h1,
 .dark h2,
 .dark h3,
