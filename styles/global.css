@@ -725,11 +725,11 @@ footer {
 	}
 	
 	h4 {
-		font-size: .4em;
+		font-size: .7em;
 	}
 	
 	h5 {
-		font-size: .3em;
+		font-size: .6em;
 	}
 
 	.dark h1 {
@@ -745,11 +745,11 @@ footer {
 	}
 	
 	.dark h4 {
-		font-size: .4em;
+		font-size: .7em;
 	}
 	
 	.dark h5 {
-		font-size: .3em;
+		font-size: .6em;
 	}
 	#hero {
 		height: 300px !important;
