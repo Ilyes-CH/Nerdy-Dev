@@ -394,6 +394,8 @@ footer {
 }
 
 #hero {
+	position: relative;
+	overflow: hidden;
 	width: 100%;
 	height: 550px;
 	box-shadow: 0 2px 8px black;
@@ -401,6 +403,16 @@ footer {
 }
 
 
+.bg-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 0px;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+  }
 
 
 /* Dark Mode (when .dark class is added) */
