@@ -404,7 +404,19 @@ footer {
 
 
 /* Dark Mode (when .dark class is added) */
+.dark .info-text-home {
+	font-size: medium;
+	margin-top: 310px;
+	text-align: center;
+	margin-bottom: 25px;
+}
 
+.dark .info-text-home-date {
+	margin-top: -30px;
+	text-align: center;
+	font-size: small;
+	color: #8a4dec !important;
+}
 .dark #hero {
 	width: 100%;
 	box-shadow: 0 2px 8px black;
@@ -623,7 +635,45 @@ footer {
 	body {
 		font-size: 18px;
 	}
+	h1 {
+		font-size: 1.7em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		font-size: 1.3em;
+	}
+	
+	h4 {
+		font-size: 1em;
+	}
+	
+	h5 {
+		font-size: .9em;
+	}
 
+	.dark h1 {
+		font-size: 1.7em;
+	}
+	
+	.dark h2 {
+		font-size: 1.5em;
+	}
+	
+	.dark h3 {
+		font-size: 1.3em;
+	}
+	
+	.dark h4 {
+		font-size: 1em;
+	}
+	
+	.dark h5 {
+		font-size: .9em;
+	}
 	#hero {
 		width: 100%;
 		height: 500px;
