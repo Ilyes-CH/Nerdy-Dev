@@ -709,6 +709,7 @@ footer {
 @media (max-width:490px) {
 	main {
 		margin-top: 20px !important;
+		width: 90% !important;
 	}
 
 
