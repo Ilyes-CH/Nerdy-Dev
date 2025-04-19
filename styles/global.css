@@ -701,6 +701,9 @@ footer {
 	.info-text-home {
 		margin-bottom: 27px;
 	}
+	.dark .info-text-home {
+		margin-bottom: 27px;
+	}
 }
 
 @media (max-width:490px) {
@@ -789,6 +792,10 @@ footer {
 		margin-bottom: 25px;
 		font-size: medium;
 	}
-
+	.dark .info-text-home {
+		margin-top: 150px;
+		margin-bottom: 25px;
+		font-size: medium;
+	}
 	.info-text-home-date {}
 }
